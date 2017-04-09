@@ -38,11 +38,6 @@ For programmers, the usual way of making data transformations or data uploads is
 - It is difficult to make manual fixes to data between transformations. 
 
 
-#### Open Refine
-
-Open Refine is an execellent tool for cleaning messy data. Especially its clustering capabilites are excellent. However, making  
-
-
 #### GLAMpipe
 
 GLAMpipe is trying to combine the strengths of scripting and spreadsheet editing.  
@@ -59,6 +54,10 @@ GLAMpipe is trying to combine the strengths of scripting and spreadsheet editing
     - once the pipeline is constructed, it can be re-used for similar cases
     - also via REST API (without GUI)
 
+
+What are facets?
+
+For example, if you have a database of concerts where there is a year mentioned in own field. Facet first finds unique values and then counts how many times that unique value exists in the records.
 
 
 

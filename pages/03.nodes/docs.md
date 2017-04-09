@@ -11,6 +11,19 @@ There are four groups of nodes:
 * process
 * download
 * export
-* view
+* view (currently not implemented)
 
-With nodes it is possible to make "easy to follow" structure for all editing that is needed for a dataset.
+### Node principles
+
+1. The idea of node is that node makes one, relatively **simple thing** for data or file. 
+
+    By chaining these simple things one can build more complex transformations (pipes).
+
+
+2. Nodes **do not edit** imported (original) data
+
+    For example, if you use a "split" node for "author" field, you get a new field called "author_splitted". 
+    This makes experimenting with setting easy, since you can not mess with original data
+
+
+
