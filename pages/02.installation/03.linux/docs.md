@@ -1,7 +1,8 @@
+---
+title: 'Native install on Linux'
+---
 
-### Native nodejs install on Linux (Debian-based distros)
-
-If you have a Linux box or you can run Linux in virtual machine, then these instructions should get you going with GLAMpipe.
+This will guide you through native nodejs install on Linux (Debian-based distros). These instructions should get you going with GLAMpipe if you have a Linux box or if you can run Linux in virtual machine.
 
 1. First install mongo database and git
 

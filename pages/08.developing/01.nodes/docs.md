@@ -1,12 +1,11 @@
 ---
-title: Writing nodes
+title: 'Writing nodes'
 ---
-# metapipe-nodes
 
-NOTE: these docs are not perfectly valid anymore. Nodes are now internal and the method for user nodes is currently missing.
-## Writing your own nodes
+! NOTE: these docs are not perfectly valid anymore. Nodes are now internal and the method for user nodes is currently missing.
 
-Nodes are the  building blocks of data manipulation in GLAMpipe. 
+### Introduction
+It is possible to write your own nodes. These pages have basic instructions of where and how to create them and how to deploy them.
 
 ### "Hello world" transform node 
 This node will create a new field to all records in the collection and it writes "Hello world" in that field.
@@ -24,7 +23,7 @@ Scripts part is where the actual code is:
 
 First we say "hello" to user when a node is added to project:
 
-	"hello": "out.say('news', 'You added a HELLO WORLD node'); ",
+    "hello": "out.say('news', 'You added a HELLO WORLD node'); ",
 	
 And when if user deletes our node, then we say "bye":
 

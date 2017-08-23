@@ -2,12 +2,9 @@
 title: Introduction
 ---
 
-Currently there are lot of tools for data manipulation: One can write scripts, use some spesific libraries like Catmandu, use ETL tools, there is Open Refine and so on. 
+### How does GLAMpipe differ from other tools?
 
-! How GLAMpipe differs from other tools?
-
-Transformations and processing of GLAM data differs, let's say, from transforming scientific data. Typically GLAM data has:
-
+There are many tools for data manipulation, and they all do things differently. GLAMpipe is created with GLAM data in mind. GLAMs are memory institutions – Galleries, Libraries, Archives and Museums – that have collections of items. Transformations and processing of GLAM data differs, let's say, from transforming scientific data. Typically GLAM data has:
 
 - multiple values for one field
     - language versions (language codes)
@@ -17,17 +14,15 @@ Transformations and processing of GLAM data differs, let's say, from transformin
 
 ### Different ways of making transformations
 
-
-
 #### Spreadsheet editing
 
-Spreadsheet editing is the easiest way for non-programmers to transform data. However, this approach has several problems:
+Often GLAMs work with spreadsheets to manipulate collection data. Although spreadsheet editing is the easiest way for non-programmers to transform data, this approach has several problems:
 
-- requires lot of work
+- it requires lot of work
 - complex processing is tricky
 - multiple values per cell are not really multiple values
-- can not operate with files or uploads
-- repeating process for automatically  with another data set is not possible
+- spreadsheets can not operate with files or uploads
+- repeating a process automatically with another data set is not possible
 
 #### Writing scripts
 
@@ -37,15 +32,14 @@ For programmers, the usual way of making data transformations or data uploads is
 - Writings scripts requires technical expertise.
 - It is difficult to make manual fixes to data between transformations. 
 
-
 #### GLAMpipe
 
 GLAMpipe is trying to combine the strengths of scripting and spreadsheet editing.  
 
-- real multiple values possible for one field (arrays)
+- real multiple values are possible for one field (arrays)
     - especially important for GLAM-data (multiple authors etc.)
-- easy manual intervention  (like in spreadsheet editing)
-    - one can fix values manually if necessary
+- manual editing is easy  (like in spreadsheet editing)
+    - it is possible to fix values manually if necessary
 - graphical user interface
     - usable by non-programmers
 - extensible
@@ -55,9 +49,6 @@ GLAMpipe is trying to combine the strengths of scripting and spreadsheet editing
     - also via REST API (without GUI)
 
 
-What are facets?
-
-For example, if you have a database of concerts where there is a year mentioned in own field. Facet first finds unique values and then counts how many times that unique value exists in the records.
 
 
 
