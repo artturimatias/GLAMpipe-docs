@@ -1,10 +1,8 @@
 ---
-title: Node context
+title: Context
 ---
 
-
 When node scripts are executed (via vm.runInNewContext), an context object is passed to a node. Here is what it contains:
-
 
 
 * **context.doc**
@@ -84,6 +82,4 @@ Nodes have three different kind of views. View consists of HTML and possible jav
 
         var sep = context.node.settings.separator;
 
-* **data_static**
 
-    data_static allows node to set a static data view. This is useful when the structure of the data is known. For example, data queried from API has certain kind of structure.

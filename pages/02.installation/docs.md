@@ -5,7 +5,38 @@ order_by: ''
 order_manual: ''
 ---
 
-### Get GLAMpipe
 To get started, you need access to GLAMpipe. You have two options:
-1. If you only work with data, it is possible to use the [online version](http://glampipe.org:3000). File uploads are also becoming usable with the online tool.
-2. If you want to upload media, you will need to install the software on your computer. GLAMpipe is a node.js application and it uses MongoDB for data storage. The easiest way is to use Docker-compose with Docker. The setup supports a variety of platforms. Another option is to install the software natively, which is required for older Macs. See the instructions on the following pages.
+1. Try [demo version](http://demo.glampipe.org).
+2. Install GLAMpipe on your computer. Try quick install first (see below).
+
+Note: this installs a *development version* of GLAMpipe
+
+##Quick install on Linux and Mac
+
+Before you can install GLAMpipe, you need a [Docker](https://www.docker.com) for  [Ubuntu](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/) / [Debian](https://docs.docker.com/engine/installation/linux/docker-ce/debian/) / [Mac](https://www.docker.com/docker-mac) / [Windows](https://docs.docker.com/docker-for-windows/install/) installed and running on your computer. 
+
+Open terminal, make a directory for GLAMpipe data and fetch install script:
+
+	mkdir glampipe && cd glampipe
+    
+Linux:
+
+	wget https://raw.githubusercontent.com/artturimatias/GLAMpipe/dev/install_glampipe.sh
+    
+Mac:
+	
+    curl -O https://raw.githubusercontent.com/artturimatias/GLAMpipe/dev/install_glampipe.sh
+    
+Make the script executable:
+
+    chmod u+x install_glampipe.sh
+    
+Execute script
+
+	./install_glampipe.sh
+
+
+
+##Quick install on Win
+
+There is no install script for Windows yet.
