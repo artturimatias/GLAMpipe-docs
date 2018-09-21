@@ -1,0 +1,12 @@
+docker run -d -v /home/arihayri/Projects/GLAMpipe-docs:/apps/www/grav/user/pages -p 8080:8080 --name grav garywiz/docker-grav --create-user anyuser:/apps/var
+
+
+
+docker stop grav
+docker rm grav
+docker run  -p 8080:8080 --name grav garywiz/docker-grav 
+docker cp Projects/GLAMpipe-docs/pages/ grav:/apps/www/grav/user/
+docker exec -it grav bash
+cd /apps/www/grav
+bin/gpm install learn2
+bin/grav clear-cache
