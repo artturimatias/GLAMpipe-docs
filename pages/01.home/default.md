@@ -2,22 +2,16 @@
 title: Home
 ---
 
----
-title: GLAMpipe
----
 
-
- ! NOTE: GLAMpipe is under development, but you are free to experiment with it already!
 
 ### What is GLAMpipe?
 
- **GLAMpipe** is an extensible open source web-app for transforming datasets and uploading data and media to online repositories.
+ **GLAMpipe** is an extensible open source web-app for browsing and transforming GLAM datasets, and uploading data and media to online repositories.
 
- ####GLAMpipe can be used to:
-- browse metadata
-- importing metadata + files
-- process metadata + files
-- exporting metadata + files
+GLAMpipe can be used:
+- via graphical user interface
+- via REST api
+- as a software libarary
 
 
 ####GLAMpipe can import from:
