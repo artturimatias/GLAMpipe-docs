@@ -3,11 +3,9 @@ title: GLAMpipe
 ---
 
 
- ! NOTE: GLAMpipe is under development, but you are free to experiment with it already!
+### What is GLAMpipe and GLAMpipe-RW?
 
-### What is GLAMpipe?
-
- **GLAMpipe** is an extensible open source web-app for transforming datasets and uploading data and media to online repositories.
+ **GLAMpipe** is an extensible open source web-app for transforming datasets and uploading data and media to online repositories. **GLAMpipe-RW** is a total rewrite of GLAMpipe using modern Javascript. 
 
  ####GLAMpipe can be used to: 
 - browse metadata
