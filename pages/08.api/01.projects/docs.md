@@ -8,6 +8,8 @@ Creating projects is simple, just post the name of the project to /api/v2/projec
 
 	curl -H "Content-Type: application/json" -d '{"name":"My first project"}' http://localhost:3000/api/v2/projects
     
+The result contains the '_id' property that is the UUID of the project.
+    
 In addition, you can post id for the project. This makes it possible to write scripts that refer projects by static ids, not uuids that change every time you create a project.  
 
 	curl -H "Content-Type: application/json" -d '{"name":"Thesis from DSpace", "id":"thesis"}' http://localhost:3000/api/v2/projects
