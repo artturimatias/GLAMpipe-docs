@@ -1,5 +1,5 @@
 ---
-title: 'Data sources - Import data'
+title: 'Importing data'
 ---
 
 To start importing data, create a source node. When creating the node, you add setup data. After creating the node you will tweak the settings.
