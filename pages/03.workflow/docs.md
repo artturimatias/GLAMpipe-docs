@@ -1,5 +1,5 @@
 ---
-title: 'A step-by-step guide'
+title: Usage
 ---
 
 This is a step-by-step guide to walk you through a project in GLAMpipe.
