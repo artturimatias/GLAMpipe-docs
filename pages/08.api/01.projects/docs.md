@@ -2,9 +2,11 @@
 title: Projects
 ---
 
-### Projects
+### Creating project
 
-Creating projects is simply, just send the name of the project:
+Creating projects is simple, just send the name of the project:
+
+	curl -H "Content-Type: application/json" -d '{"name":"My first project"}' http://localhost:3000/api/v2/projects
 
 | path                   | method | parameters    | info               |
 |------------------------|--------|---------------|--------------------|
