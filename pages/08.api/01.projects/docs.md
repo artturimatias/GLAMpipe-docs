@@ -4,7 +4,7 @@ title: Projects
 
 ### Creating project
 
-Creating projects is simple, just post the id (a-z, no spaces) of the project to /api/v2/projects:
+Creating a project is simple, just make a POST request /api/v2/projects/[project_id]. Project id can contain letters from a-z, numbers and no spaces.
 
 	curl -XPOST -H "Content-Type: application/json" http://localhost:3000/api/v2/projects/DSpace
     
