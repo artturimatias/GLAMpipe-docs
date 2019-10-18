@@ -7,3 +7,8 @@ Importing, processing and exporting nodes are always added to a collection, not 
 Create DSpace 6 import node:
 
 	curl -H "Content-Type: application/json" -d "{}" http://localhost:3000/api/v2/nodes
+
+	POST /projects/my_project
+    POST /projects/my_project/collections/thesis
+	POST projects/my_project/collections/thesis/nodes/get_data
+
