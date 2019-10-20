@@ -10,7 +10,7 @@ Creating a project is simple, just make a POST request /api/v2/projects/[project
     
 In addition, you can post a title for the project.  
 
-	curl -H "Content-Type: application/json" -d '{"name":"Thesis from DSpace"}' http://localhost:3000/api/v2/projects/Dspace
+	curl -H "Content-Type: application/json" -d '{"title":"Thesis from DSpace"}' http://localhost:3000/api/v2/projects/Dspace
     
 
 
